@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const LatestNews = () => {
     return (
-        <div>
-            <p className="p-2 bg-red-400 text-white">
+        <div className="flex items-center bg-gray-200 p-2">
+            <p className="p-2 px-4 bg-red-600 w-fit text-white">
                 Latest
             </p>
             <Marquee pauseOnHover={true}>
